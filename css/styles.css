@@ -9,4 +9,11 @@ h1
     background-color: blanchedalmond;
 }
 
+.jacquard-24-regular {
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+  }
+
     
