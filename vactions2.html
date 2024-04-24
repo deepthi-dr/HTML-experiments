@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+    
+            .flex-container {
+                display: flex;
+                flex-direction: row;
+                font-size: 30px;
+                text-align: center;
+            }
+    
+            .flex-item-left {
+                background-color: #f1f1f1;
+                padding: 10px;
+                flex: 50%;
+                border-style: solid;
+                border-color: tomato;
+                padding: 20px
+            }
+    
+            .flex-item-right {
+                background-color: #f1f1f1;
+                padding: 10px;
+                flex: 50%;
+                border-style: solid;
+                border-color: tomato;
+                padding: 20px
+            }
+    
+            /* Responsive layout - makes a one column-layout instead of two-column layout */
+            @media (max-width: 500px) {
+                .flex-container {
+                    flex-direction: column;
+                }
+            }
+    
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+    
+        </style>
+    </head>
+    <body>
+        <h1>Vacations !</h1>
+        <div class="flex-container"">
+            <div style="border:solid">
+                <p>Beach</p>
+                <img src="images/v1.jpeg">
+            </div>
+            <div>
+                <p>Mountain</p>
+                <img src="images/v2.jpg">
+            </div>
+            <div>
+                <p>Forest</p>
+                <img src="images/v3.jpeg">
+            </div>
+            <div>
+                <p>City</p>
+                <img src="images/v4.jpeg">
+            </div>
+            
+        </div>
+       
+    </body>
+    <footer>
+
+    </footer>
+</html>
